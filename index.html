@@ -10,18 +10,26 @@
 
     <header>
         <nav>
-            <a href="mission.html" class="top-left">Our Mission</a>
-            <a href="index.html" class="top-left">Play Our Game</a>
+            <a href="mission.html" class="nav-link">Our Mission</a>
+            
+            <a href="#study-questions" class="nav-link">Play Our Game</a>
         </nav>
         <div class="title">
             <h1>STUDY GAME</h1>
         </div>
     </header>
 
+    <section id="study-questions">
+        <h2>Insert Study Questions Here</h2>
+        <textarea placeholder="Type your question..."></textarea>
+    </section>
+    
+    <!-- here for when we click play our game button, we will jump to the grid session -->
+    <section class="home_grid">
+        
+    </section>
     <footer>
         <p>Study Game &copy; 2025 - Study Game Team</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
@@ -34,6 +42,13 @@
             </a>
         </div>
     </footer>
-
+    
+    <script>
+        document.querySelector('a[href="#questionBox"]').addEventListener("click", function (event) {
+            event.preventDefault();  // Prevent default jump
+            document.getElementById("questionBox").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+    
 </body>
 </html>
