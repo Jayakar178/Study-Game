@@ -42,15 +42,14 @@ nav {
     display: flex;
     justify-content: space-around;
     background: linear-gradient(to right, #4A90E2, #7F8C8D );
-    padding: 15px 0;
+    padding: 2px 0;
   }
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 12px 20px ;
     font-weight: bold;
-    display: inline-block;
     border-radius: 8px;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
     
@@ -63,7 +62,7 @@ nav a {
 
   .nav-link{
     text-align: center;
-    color:white;
+    color: black;
     text-decoration: none;
     padding: 15px;
     font-weight: bold;
@@ -122,7 +121,7 @@ footer {
 
 
 
-#mission-statement, #goals,#call-to-action{
+#mission-statement,#call-to-action{
     
     width: 80%;
     text-align: center;
@@ -132,6 +131,35 @@ footer {
     grid-row: 5/8; */
     box-shadow: 5px 5px 10px black;
 }
-.cta-button{
-    
+#goals ul {
+       list-style-type: disc;
+        padding-left: 40px;
+        line-height: 1.6;
 }
+section {
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.cta-button{
+    height: 50px;
+    background-color: #F3954E;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #4A90E2, #2E66A3);
+    font-size: 18px;
+    /* padding: 5px 5px; */
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #49586B;
+    color: #FFFFFF;
+    padding: 5px 0px;
+  }
