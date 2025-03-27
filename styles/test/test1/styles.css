@@ -63,16 +63,20 @@ nav.scrolled {
 
 /* 🔹 Hero Section */
 .hero {
-  background: url("https://images.unsplash.com/photo-1602263563790-fcb43bdde93d")
-    no-repeat center center/cover;
+  background: linear-gradient(135deg, #2E1065, #5F259F, #8028AA, #FF48C4), 
+              url('https://www.transparenttextures.com/patterns/hexellence.png');
+  background-size: cover, 100px;
+  background-blend-mode: overlay;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   position: relative;
-  padding-top: 80px; /* 🛠️ Adjusted for navbar */
+  padding-top: 80px;
 }
+
+
 
 .hero::after {
   content: "";
@@ -163,6 +167,18 @@ nav.scrolled {
   color: #111;
 }
 
+.about-btn{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px;
+  background-color: #111;
+  color: #00f7ff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
 .download-link,.mission-btn {
   display: inline-block;
   margin-top: 20px;
@@ -189,8 +205,6 @@ footer {
 
 /* 🔹 Mission Page Hero */
 .mission-hero {
-  background: url('https://images.unsplash.com/photo-1526491109672-74740649b3f5') no-repeat center center/cover;
-  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -198,6 +212,20 @@ footer {
   text-align: center;
   color: white;
   padding: 20px;
+
+
+
+  background: linear-gradient(135deg, #2E1065, #5F259F, #8028AA, #FF48C4), 
+              url('https://www.transparenttextures.com/patterns/hexellence.png');
+  background-size: cover, 100px;
+  background-blend-mode: overlay;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding-top: 80px;
 }
 
 .mission-hero h1 {
