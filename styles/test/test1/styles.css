@@ -338,3 +338,29 @@ footer {
   font-size: 0.9rem;
 }
 
+.about-btn1{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px;
+  background-color: #111;
+  color: #00f7ff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.download-link1{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px;
+  background-color: #111;
+  color: #00f7ff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.download-link1:hover {
+  background-color: #222;
+}
